@@ -22,6 +22,16 @@ public class Main {
 
         System.out.println("RESULT");
 
-
+        if (ChosenService == 1) {
+            new NationalID().ShowNationalId(nin);
+        } else if (ChosenService == 2) {
+            new TaxService().ShowTinIssued(nin);
+        } else if (ChosenService == 3) {
+            new PassportService().ShowPassportApplication(nin);
+        } else if (ChosenService == 4) {
+            new Services().ShowBusinessRegistration(nin);
+        } else {
+            System.out.println("Invalid option");
+        }
     }
 }
