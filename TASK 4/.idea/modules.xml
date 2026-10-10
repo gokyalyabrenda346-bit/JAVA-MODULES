@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Identity/Identity.iml" filepath="$PROJECT_DIR$/Identity/Identity.iml" />
       <module fileurl="file://$PROJECT_DIR$/TASK 4.iml" filepath="$PROJECT_DIR$/TASK 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tax/Tax.iml" filepath="$PROJECT_DIR$/Tax/Tax.iml" />
     </modules>
   </component>
 </project>
